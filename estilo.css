@@ -22,8 +22,12 @@
 }
 #titheader{
     text-align: left;
+    height: 100%;
+    display: flex;
+    align-items: center;
     float: right;
     width: 80%;
+    text-transform: uppercase;
 }
 #logo{
     float: left;
@@ -37,6 +41,17 @@
     color: darkblue;
     font: medium;
     padding: 10px;
+}
+#titnav{
+    float: left;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+#busqueda{
+    float: right;
+    width: 65%;
 }
 #contenido{
     height: 50%;
@@ -78,26 +93,38 @@
     padding: 5px;
 }
 #art1{
+    background: lightblue;
     font: italic;
     color: purple;
+    border-radius: 1em;
     padding: 5px;
     margin: 0.5em;
+    height: 20%;
 }
 #art2{
+    background: lightblue;
     font: status-bar;
     color: red;
+    border-radius: 1em;
     padding: 5px;
     margin: 0.5em;
+    height: 20%;
 }
 #art3{
+    background: lightblue;
     font: icon;
     color: yellow;
+    border-radius: 1em;
     padding: 5px;
     margin: 0.5em;
+    height: 20%;
 }
 #art4{
+    background: lightblue;
     font: unset;
     color: blue;
+    border-radius: 1em;
     padding: 5px;
     margin: 0.5em;
+    height: 20%;
 }
