@@ -128,3 +128,7 @@
     margin: 0.5em;
     height: 20%;
 }
+
+a{
+    text-decoration: none;
+}
